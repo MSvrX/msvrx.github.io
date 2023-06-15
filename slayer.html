@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monster Slayer</title>
+    <link rel="stylesheet" href="slayerStyle.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Monster Slayer</h1>
+    </header>
+    <main>
+      <section class="lifeStatus">
+        <h2 class="hudTitle">group for HUD</h2>
+        <div>
+          <div id="character">Unknown Player's life:</div>
+          <span id="playerLife" class="pv lastingLifePlayer">100</span>
+          <div id="monster">Unknown Monster's life:</div>
+          <span id="monsterLife" class="pv lastingLifeMonster">100</span>
+        </div>
+      </section>
+      <section>
+        <h2>group of Buttons</h2>
+        <div class="newGame">
+          <button id="startGame">Start New Game</button>
+        </div>
+        <div id="btn">
+          <button id="btnAttack">Attack</button>
+          <button id="btnSpeAttack">Special Attack</button>
+          <button id="btnHeal">Heal</button>
+          <button id="btnGiveUp">Give Up</button>
+        </div>
+      </section>
+    </main>
+    <script src="slayerJS.js"></script>
+  </body>
+</html>
